@@ -1,0 +1,474 @@
+/*
+Theme Name: Crystalign
+Author: Mary Grace Yap
+Version: 1.0
+*/
+
+
+
+
+/*General*/
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir.ttc') format('truetype')
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+/*Header*/
+
+/*To Center the logo*/
+.menu-center-img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+}
+
+.top-pattern-img{
+    height: 70px;
+}
+
+
+.left-menu {
+    float: left;
+    padding-left: 70px;
+}
+
+.right-menu {
+    float: right;
+    padding-right: 70px;
+}
+
+/*To move left menu away from center logo*/
+#menu-item-77 {
+ margin-right: 150px;
+}
+
+.company-name {
+    text-align: center;
+}
+
+.top-navigation {
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.top-navigation li{
+    display: inline;
+}
+.top-navigation a{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-nav{
+    /*background-image: linear-gradient(to right, blue, #b33a93, blue);*/
+    background-color: #20409a;
+    height: 50px;
+    box-shadow: 0px 4px 8px #0d1b40;
+}
+
+/*To center the mobile menu*/
+.navbar-toggler {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-light .navbar-toggler {
+    margin-top: -100px;
+    width: 100%;
+    border-color: transparent;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+    font-family: 'Avenir';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#menu-primary-navigation-1 {
+    padding-top: 50px;
+}
+
+.mobile-heart {
+    height: 60px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -15px;
+}
+
+.bg-light {
+    background-color: #20409a !important;
+}
+
+.top-nav-img {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+
+.header-img-container {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+/*.appointment-button {
+    background-image: linear-gradient(#20409a, #2f5cda, #20409a);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 18px;
+}*/
+
+.appointment-button {
+    background-image: linear-gradient(#20409a, #2f5cda, #20409a);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: auto;
+    margin-top: -20px;
+    box-shadow: 2px 2px 5px 0px #888888;
+}
+
+
+.appointment-button:hover {
+    background-color: #20409a;
+}
+
+/*.vertical-center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}*/
+
+
+.vertical-center {
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*Mission*/
+.accent-mission-title {
+    font-family: cursive;
+    font-size: 80px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.mission-text {
+    padding: 30px 0px;
+    margin-top: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #ffffff24, #eae9e9, #ffffff24);
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 22px;
+    color: #696868;
+}
+
+.mission-decoration{
+    margin-bottom: 100px;
+}
+
+.body-text {
+    font-family: 'Avenir';
+    font-size: 18px;
+}
+
+/*Services*/
+
+
+.service-box.col-md-6 {
+    padding: 50px 0;
+}
+
+.service-image {
+    height: auto;
+    width: 331px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-title {
+    text-align: center;
+    background-color: #706a78;
+    margin: 0px auto 15px;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    width: 331px;
+    display: block;
+    font-family: 'Avenir';
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.service-text {
+    padding: 0 50px;
+    text-align: justify;
+    margin: 0px auto 15px;
+    padding: 8px;
+    font-size: 18px;
+    width: 340px;
+    display: block;
+    font-family: 'Avenir';
+
+}
+
+
+/*Testomonials*/
+.testimonial-row {
+    background: #d4c7a4;
+}
+
+.testimonial-container{
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+.testimonial-text {
+    padding: 30px 20px 0 20px;
+    font-family: 'Arima Madurai';
+    color: #504f4f;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*Footer*/
+.footer-badge {
+    margin: 100px 0 50px 0;
+}
+
+.footer-badge-img, 
+.footer-info {
+    padding: 20px 0;
+    height: 180px;
+    width: auto;
+}
+
+.badge-container {
+    background-image: linear-gradient(to right, #ffffff24, #e2e2e2, #ffffff24);
+}
+
+
+.footer-title {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.hours,
+.col.mini-box {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.footer-text-info, .social-logo{
+    padding-top: 40px;
+}
+
+.social-logo {
+    width: auto;
+    height: 100px;
+}
+
+
+.social-column {
+    text-align: center;
+    /* padding-top: 80px; */
+}
+
+.copyright-container{
+    background-image: linear-gradient(to right, blue, #b33a93, blue);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.griffin-footer{
+    color: white;
+}
+/*.header-image {
+    padding: 30px;
+    background-size: cover;
+}*/
+
+
+
+/*Pages*/
+
+.horizontal-line{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 10px solid #20409a;
+    border-image: repeating-linear-gradient( 45deg, #20409a, #b92499 50%) 10;
+}
+
+.page-body-text {
+    margin: 100px 0;
+    font-family: 'Avenir';
+
+}
+
+.page-featured-text {
+    padding: 30px 0px;
+    margin: 100px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #ffffff24, #eae9e9, #ffffff24);
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 22px;
+    color: #696868;
+}
+
+
+/*These classes are found in wysiwyg editor*/
+.page-body-title {
+    font-size: 30px;
+    color: #20409a;
+    font-weight: 900;
+}
+
+.page-body-subtitle {
+    font-size: 22px;
+    color: #20409a;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.bold-subtext {
+    font-size: 18px;
+    color: #20409a;
+    font-weight: 600;
+}
+
+.testimonial-title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Avenir';
+}
+
+
+@media screen and (min-width: 990px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 20%;
+    }
+
+/*.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}*/
+}
+
+
+@media screen and (min-width: 1470px) {
+    .left-menu {
+        padding-left: 100px;
+    }
+    .right-menu {
+        padding-right: 100px;
+    }
+
+}
+
+
+@media screen and (max-width: 1470px) {
+    .left-menu {
+        padding-left: 75px;
+    }
+    .right-menu {
+        padding-right: 75px;
+    }
+
+}
+
+
+@media screen and (max-width: 1315px) {
+    .left-menu {
+        padding-left: 40px;
+    }
+    .right-menu {
+        padding-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1090px) {
+    .left-menu {
+        padding-left: 15px;
+    }
+    .right-menu {
+        padding-right: 15px;
+    }
+}
+
+
+@media screen and (max-width: 932px) {
+    .left-menu {
+        padding-left: 0px;
+    }
+    .right-menu {
+        padding-right: 0px;
+    }
+    .top-navigation a {
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .left-menu {
+        padding-left: 0;
+    }
+    .right-menu {
+        padding-right: 0px;
+    }
+}
+

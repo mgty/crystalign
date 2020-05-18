@@ -1,0 +1,584 @@
+/*
+
+Theme Name: Crystalign
+
+Author: Mary Grace Yap
+
+Version: 1.0
+
+*/
+
+/* General */
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir/Avenir.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CinqueDonne-Bold';
+    src: url('fonts/CinqueDonne/CinqueDonne-Bold.ttf');
+}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.front-body {
+ background-image: linear-gradient(to right, #f0d89b8f, white, white, white, white, white, white, white, #f0d89b8f);
+}
+
+/*Header*/
+
+/*To Center the logo*/
+.menu-center-img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    z-index: 10000;
+}
+
+.crystalign-chiropractic {
+    width: auto;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+
+.dropdown-menu.show {
+    z-index: 10000;
+}
+
+.top-pattern-img{
+    height: 70px;
+}
+
+#menu-primary-navigation-1 {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+}
+
+/*To move left menu away from center logo*/
+#menu-item-77 {
+ margin-right: 150px;
+}
+
+.company-name {
+    text-align: center;
+}
+
+.top-navigation {
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.top-navigation li{
+    display: inline;
+}
+.top-navigation a{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-nav{
+    /*background-image: linear-gradient(to right, blue, #b33a93, blue);*/
+    background-color: #20409a;
+    height: 50px;
+    box-shadow: 0px 4px 8px #0d1b40;
+}
+
+/*To center the mobile menu*/
+.navbar-toggler {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-light .navbar-toggler {
+    margin-top: -100px;
+    width: 100%;
+    border-color: transparent;
+    z-index: 10000;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+    font-family: 'Avenir';
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+.mobile-heart {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -15px;
+}
+
+.bg-light {
+    background-color: #20409a !important;
+}
+
+.top-nav-img {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.header-img-container {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.appointment-button {
+    background-image: linear-gradient(#20409a, #2f5cda, #20409a);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: auto;
+    margin-top: -30px;
+    box-shadow: 2px 2px 5px 0px #888888;
+}
+
+
+.appointment-button:hover {
+    background-color: #20409a;
+}
+
+.vertical-center {
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*Mission*/
+.accent-mission-title {
+    font-family: 'CinqueDonne-Bold';
+    font-size: 80px;
+    text-align: center;
+    margin: 50px 0;
+    color: #696666;
+}
+
+.mission-text {
+    padding: 30px 0px;
+    margin-top: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #ffffff24, #eae9e9, #ffffff24);
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    color: #696868;
+}
+
+.mission-decoration{
+    margin-bottom: 100px;
+}
+
+.body-text,
+.staff-text,
+.staff-more-text,
+.entry-content > p,
+.content-here {
+    font-family: 'Avenir';
+    font-size: 18px;
+}
+
+/*Services*/
+.service-box.col-md-6 {
+    padding: 50px 0;
+}
+
+.service-image {
+    height: auto;
+    width: 331px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-title {
+    text-align: center;
+    background-color: #706a78;
+    margin: 0px auto 15px;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    width: 331px;
+    display: block;
+    font-family: 'Avenir';
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.service-title> a {
+    color: white;
+}
+
+.service-text> a {
+    color: black;
+}
+
+.service-text {
+    padding: 0 50px;
+    text-align: justify;
+    margin: 0px auto 15px;
+    padding: 8px;
+    font-size: 18px;
+    width: 340px;
+    display: block;
+    font-family: 'Avenir';
+}
+
+
+/*Testomonials*/
+.testimonial-row {
+    background: #d4c7a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-container{
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+.testimonial-text {
+    font-family: 'Arima Madurai';
+    color: #504f4f;
+    font-weight: 400;
+    padding: 10px 15px;
+    line-height: normal;
+}
+
+
+.author {
+    font-family: "Courgette";
+    text-align: right;
+}
+
+/*Footer*/
+
+.footer-badge-info {
+    margin: 100px -10px 0px -10px;
+    text-align: center;
+    background-image: url(http://crystalign-chiropractic.local/wp-content/uploads/2020/04/homepage-desktop-master-Footer.png);
+}
+
+.footer-badge-img, 
+.footer-info {
+    padding: 20px 0;
+    height: 180px;
+    width: auto;
+}
+
+.badge-container {
+    background-image: linear-gradient(to right, #ffffff24, #e2e2e2, #ffffff24);
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.footer-title {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.hours,
+.col.mini-box {
+    text-align: center;
+    font-family: 'Avenir';
+}
+
+.footer-text-info, .social-logo {
+    font-family: 'Avenir';
+    padding-top: 50px;
+}
+
+.social-logo {
+    width: auto;
+    height: 130px;
+}
+
+.footer-col {
+    background-image: linear-gradient(#ffffff, #ffffff00);
+}
+
+.social-column {
+    text-align: center;
+    /* padding-top: 80px; */
+}
+
+.copyright-container{
+    background-image: linear-gradient(to right, blue, #b33a93, blue);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.griffin-footer{
+    color: white;
+}
+/*.header-image {
+    padding: 30px;
+    background-size: cover;
+}*/
+
+
+
+/*Chripractic*/
+
+.horizontal-line{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 10px solid #20409a;
+    border-image: repeating-linear-gradient( 45deg, #20409a, #b92499 50%) 10;
+}
+
+.page-body-text {
+    margin: 50px 0;
+    font-family: 'Avenir';
+}
+.page-featured-text {
+    padding: 30px 0px;
+    margin: 100px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #ffffff24, #eae9e9, #ffffff24);
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    color: #696868;
+}
+
+
+/*Blog*/
+.entry-content {
+    margin-bottom: 100px;
+}
+
+.blog-author {
+    font-size: 18px;
+    color: #20409a;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.alignnone,
+.size-medium {
+    width: 50% !important;
+    height: auto !important;
+}
+
+
+.blog-title {
+    font-size: 30px;
+    color: #20409a;
+    font-weight: 900;
+}
+
+.container > h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    color: #20409a;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+
+/*These classes are found in wysiwyg editor*/
+.page-body-title {
+    font-size: 30px;
+    color: #20409a;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.page-body-subtitle{
+    font-size: 22px;
+    color: #20409a;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.bold-subtext,
+.entry-title > a {
+    font-size: 20px;
+    color: #20409a;
+    font-weight: 600;
+}
+
+.testimonial-title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Avenir';
+}
+
+div#bs-example-navbar-collapse-1 {
+    padding-top: 80px;
+}
+
+
+/*Meet The Staff*/
+.staff-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff-text {
+    background-image: linear-gradient(to right, #ffffff24, #eae9e9, #ffffff24);
+    padding: 20px 0 10px 0;
+}
+
+.staff-more-text {
+    margin: 20px 0 100px 0;
+}
+
+
+/*Contact Us*/
+.contact-row{
+    text-align: center;
+}
+
+.location-row{
+    margin-bottom: 50px;
+}
+
+.g-recaptcha > div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media screen and (min-width: 1500px){
+    .testimonial-text {
+        line-height: 50px;
+    }
+}
+
+@media screen and (min-width: 989px){
+    /*Service button arrow down*/
+    .dropdown-toggle::after {
+        content: none;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+      display: block;
+    }
+
+    li.left-menu.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.dropdown.menu-item-127.nav-item {
+        margin-right: 50px;
+        z-index: 10000;
+    }
+
+    div#bs-example-navbar-collapse-1 {
+        padding-top: 0;
+    }
+    
+    .nav-item {
+        padding: 0 10px;
+    }
+
+    li.left-menu.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.dropdown.menu-item-127.nav-item {
+        margin-right: 50px;
+    }
+
+    li.right-menu.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-128.nav-item {
+        margin-left: 100px;
+    }
+
+    .dropdown-item {
+        color: #20409a;
+        background-color: #efe7f1;
+    }
+
+    .blog-container {
+        margin-top: 100px;
+    }
+    .blog-title {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 989px){
+    .testimonial-text {
+        line-height: normal;
+    }
+
+    .menu-center-img,
+    .crystalign-chiropractic{
+        display: none;
+    }
+    .dropdown-item {
+        color: #20409a;
+        background-color: #efe7f1;
+        text-align: center;
+    }
+    .container > h1 {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footer-top{
+        background-color: white;
+    }
+    .footer-badge-info {
+    background-image: url(http://crystalign-chiropractic.local/wp-content/uploads/2020/04/homepage-desktop-master-Footer.png);
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 575px){
+    .footer-bottom.footer-col.hours-col.col-md-3.col-sm-6 {
+        background: white;
+    }
+}
+
+
+
